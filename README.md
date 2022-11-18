@@ -16,7 +16,7 @@ export OPENVPN_CLOUD_CLIENT_ID=""
 export OPENVPN_CLOUD_CLIENT_SECRET=""
 ```
 
-2. Configure in [provider.tf file](https://github.com/arslanbekov/openvpn-cloud-terraform-example/blob/main/provider.tf)
+2. Configure in [provider.tf](https://github.com/arslanbekov/openvpn-cloud-terraform-example/blob/main/provider.tf) file.
 
 ## Run
 
