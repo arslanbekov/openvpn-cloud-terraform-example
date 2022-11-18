@@ -5,12 +5,18 @@ This is not official documentation or recommendations for use. Please refer to t
 - GitHub — [OpenVPN/terraform-provider-openvpn-cloud](https://github.com/OpenVPN/terraform-provider-openvpn-cloud)
 - Provider — [registry.terraform.io](https://registry.terraform.io/providers/OpenVPN/openvpn-cloud/latest/docs)
 
-## Export OpenVPN Cloud variables
+## Configure access
+
+You can use two ways for auth in OpenVPN Cloud.
+
+1. Use ENV variables:
 
 ```bash
 export OPENVPN_CLOUD_CLIENT_ID=""
 export OPENVPN_CLOUD_CLIENT_SECRET=""
 ```
+
+2. Configure in [provider.tf file](https://github.com/arslanbekov/openvpn-cloud-terraform-example/blob/main/provider.tf)
 
 ## Run
 
