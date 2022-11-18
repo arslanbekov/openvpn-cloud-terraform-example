@@ -12,6 +12,15 @@ export OPENVPN_CLOUD_CLIENT_ID=""
 export OPENVPN_CLOUD_CLIENT_SECRET=""
 ```
 
+## Run
+
+```bash
+terraform init
+
+terraform plan
+terraform apply
+```
+
 ## Important notes
 
 Due to rate limits on OpenVPN Cloud side, we have to limit the number of actions that terraform performs in parallel.
